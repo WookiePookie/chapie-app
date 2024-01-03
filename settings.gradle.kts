@@ -19,4 +19,5 @@ rootProject.name = "kanbreeze"
 
 include(
     ":platform:android",
+    ":platform:desktop",
 )

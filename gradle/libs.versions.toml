@@ -8,6 +8,8 @@ activity-compose = "1.8.2"
 compose-bom = "2023.10.01"
 navigation-compose = "2.7.6"
 splashscreen = "1.0.1"
+jetbrainsCompose = "1.5.11"
+#config
 androidComposeVersion = "2.6.1"
 jetpackComposeCompilerVersion = "1.5.7"
 compileSdk = "34"
@@ -38,3 +40,5 @@ kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 #android
 android-library = { id = "com.android.library", version.ref = "agp" }
 android-application = { id = "com.android.library", version.ref = "agp" }
+#compose
+compose-multiplatform = { id = "org.jetbrains.compose", version.ref = "jetbrainsCompose" }
