@@ -67,4 +67,9 @@ dependencies {
     implementation(libs.compose.material3)
     implementation(libs.compose.navigation)
     implementation(libs.compose.systemuicontroller)
+
+    implementation(projects.styleSystem)
+    implementation(libs.moko.resources.compose)
+    implementation(libs.moko.resources)
+    implementation(projects.feature.authorization)
 }

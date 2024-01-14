@@ -7,6 +7,7 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -21,3 +22,9 @@ include(
     ":platform:android",
     ":platform:desktop",
 )
+
+include(
+    ":feature:authorization"
+)
+
+include(":style-system")
