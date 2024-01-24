@@ -7,6 +7,7 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -15,9 +16,15 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "kanbreeze"
+rootProject.name = "chapie-app"
 
 include(
     ":platform:android",
     ":platform:desktop",
 )
+
+include(
+    ":feature:authorization"
+)
+
+include(":style-system")
