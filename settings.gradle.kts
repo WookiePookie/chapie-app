@@ -16,7 +16,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "kanbreeze"
+rootProject.name = "chapie-app"
 
 include(
     ":platform:android",
